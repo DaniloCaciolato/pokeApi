@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;    
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    margin: 0;
+}
+
+.content {
+    font-size: 2rem;
+    width:390px;
+    margin: 0 auto;
+    padding: 0.5rem;
+
+}
+
+@media screen and (min-width: 390px) {
+    .content {
+        min-width: 390px;
+        margin: 0 auto;
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .content {
+        min-width: 576px;
+        margin: 1rem auto;
+        font-size: 1rem;
+        padding: 0;
+        background: white;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        min-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+
+.content h1 {
+    text-align: center;
+    margin: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 390px) {
+    .content h1 {
+        margin: 1.5rem 1rem;
+        margin-bottom: 0;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .content h1 {
+        margin: 1.5rem 1rem;
+        margin-bottom: 0.2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content h1 {
+        margin: 1.5rem 1rem;
+        margin-bottom: 0.2rem;
+    }
+}
